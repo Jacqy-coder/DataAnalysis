@@ -161,3 +161,6 @@ This analysis of the heart failure clinical records dataset reveals several insi
 
 These findings provide a foundation for further research, including predictive modeling to identify high-risk patients and targeted interventions to improve patient outcomes.
 """)
+
+# Close all remaining open figures to manage memory
+plt.close('all')
